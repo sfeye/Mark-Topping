@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  z-index: 0;
+  position: relative;
+}
+
+.title {
+  background-color: black;
+  position: absolute;
+  float: left;
+  z-index: 1;
+  width: 90%;
+  height: 100%;
+  color: white;
+  overflow: hidden;
+  min-height: 150%;
+  transform: rotate(-20deg);
+  left: -40%;
+  top: -7%;
+}
+
+.headers {
+  position: relative;
+  z-index: 3;
+  top: 30%;
+  left: 20%;
+  color: white;
+  text-align: center;
+  transform: rotate(20deg);
+}
+
+.headers h1 {
+  font-size: 60px;
+}

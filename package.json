@@ -1,0 +1,26 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mark Topping Media LLC",
+  "author": "Sam Feye",
+  "keywords": [
+    "Mark",
+    "Topping",
+    "Mark Topping",
+    "Mark Topping Media",
+    "Kansas City Media"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.18.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}

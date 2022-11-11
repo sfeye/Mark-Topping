@@ -1,25 +1,34 @@
 import * as React from "react";
+import Mobile from "../components/layout/Mobile";
+import Desktop from "../components/layout/Desktop";
+import "../styles/index.css";
+import LandingDesktop from "../components/desktop/Landing";
+import LandingMobile from "../components/mobile/Landing";
+import About from "../components/desktop/About";
+import Royals from "../components/desktop/Royals";
+import Services from "../components/desktop/Services";
+import Events from "../components/desktop/Events";
 
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>Mark Topping Media - Coming Soon 😎</h1>
+    <main className="index-main">
+      <div className="mobile">
+        <Mobile>
+          <LandingMobile />
+        </Mobile>
+      </div>
+      <div className="desktop">
+        <Desktop>
+          <LandingDesktop />
+          <Events />
+          <Services />
+          <About />
+          <Royals />
+        </Desktop>
+      </div>
     </main>
   );
-};
-
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
 };
 
 export default IndexPage;

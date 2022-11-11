@@ -1,0 +1,36 @@
+.events-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.events-header {
+  font-family: "Vibur";
+  font-size: 80px;
+  color: #b7e9f7;
+  text-shadow: 0 -10px 100px, 0 0 2px, 0 0 1em #1da1f2, 0 0 0.5em #1da1f2,
+    0 0 0.1em #1da1f2, 0 10px 3px #1da1f2;
+  text-align: center;
+  padding: 30px;
+}
+
+.event-title {
+  align-self: center;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  width: 60vw;
+}
+
+.poster-image {
+  width: 70vw;
+}
+
+.event-desc {
+  padding: 50px;
+}
+
+.event-button {
+  width: 150px;
+  align-self: center;
+}

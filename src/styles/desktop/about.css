@@ -1,0 +1,32 @@
+.about-container {
+  min-height: 100vh;
+  background: #112 url("../../images/gen-colors.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 100vw;
+  margin-bottom: 150px;
+}
+
+.headshot {
+  justify-self: start;
+  top: 5vh;
+  left: 2vw;
+  min-height: 80vh;
+  min-width: 30vw;
+  position: relative;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-text {
+  position: relative;
+  top: 5vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding: 48px;
+  font-size: 23px;
+  line-height: 30px;
+  background-color: black;
+}

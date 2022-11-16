@@ -1,5 +1,4 @@
 import React from "react";
-import useEventbrite from "react-eventbrite-popup-checkout";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import eventImages from "../../constants/event";
@@ -9,25 +8,6 @@ import Button from "@mui/material/Button";
 import "../../styles/desktop/events.css";
 
 function Events() {
-  const handleOrderCompleted = React.useCallback(() => {
-    console.log("Order was completed successfully");
-  }, []);
-  const modalButtonCheckout = useEventbrite({
-    eventId: "448555450427",
-    modal: true,
-    onOrderComplete: handleOrderCompleted,
-  });
-
-  const data = useStaticQuery(graphql`
-    query getEventPoster {
-      poster: file(relativePath: { eq: "poster-e1.jpg" }) {
-        childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
-        }
-      }
-    }
-  `);
-
   return (
     <div className="events-container">
       <div className="events-header">Upcoming Events</div>

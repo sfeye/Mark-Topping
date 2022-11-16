@@ -2,8 +2,6 @@ import React from "react";
 import socials from "../../constants/contact";
 import { graphql, useStaticQuery } from "gatsby";
 import { getImage, GatsbyImage } from "gatsby-plugin-image";
-import { convertToBgImage } from "gbimage-bridge";
-import BackgroundImage from "gatsby-background-image";
 
 import "../../styles/desktop/landing.css";
 
@@ -24,15 +22,9 @@ const Landing = () => {
     `
   );
   const image = getImage(placeholderImage);
-  const bgImage = convertToBgImage(image);
 
   return (
-    <BackgroundImage
-      Tag="section"
-      // Spread bgImage into BackgroundImage:
-      {...bgImage}
-      preserveStackingContext
-    >
+    <div>
       <div
         style={{
           minHeight: "100vh",
@@ -76,7 +68,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-    </BackgroundImage>
+    </div>
   );
 };
 

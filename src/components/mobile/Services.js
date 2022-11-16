@@ -3,15 +3,14 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 import ListSubheader from "@mui/material/ListSubheader";
-
 import serviceImages from "../../constants/serviceImages";
-import ListHeader from "./ListHeader";
+import ListHeader from "../mobile/ListHeader";
 
-function Services() {
+const Services = () => {
   return (
-    <div style={{ paddingBottom: "200px" }}>
-      <ImageList cols={2}>
-        <ImageListItem key="Subheader" cols={2}>
+    <div style={{ paddingBottom: "50px" }}>
+      <ImageList cols={1}>
+        <ImageListItem key="Subheader" cols={1}>
           <ListSubheader style={{ backgroundColor: "black" }}>
             <ListHeader />
           </ListSubheader>
@@ -25,6 +24,6 @@ function Services() {
       </ImageList>
     </div>
   );
-}
+};
 
 export default Services;

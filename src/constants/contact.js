@@ -14,7 +14,7 @@ const EMAIL = {
 const TWITTER = {
   name: "@topping_media",
   icon: <FaTwitter style={{ color: "#1DA1F2" }} />,
-  link: "",
+  link: "https://twitter.com/topping_media",
 };
 const FACEBOOK = {
   value: "Mark Topping Media (launching Summer 2022)",
@@ -23,7 +23,7 @@ const FACEBOOK = {
       style={{ color: "#3b5998", backgroundColor: "black", borderRadius: 50 }}
     />
   ),
-  link: "",
+  link: "https://www.facebook.com/Mark-Topping-Media-102524352667506",
 };
 const INSTAGRAM = {
   value: "@marktoppingmedia",
@@ -37,7 +37,7 @@ const INSTAGRAM = {
       }}
     />
   ),
-  link: "",
+  link: "https://www.instagram.com/marktoppingmedia/",
 };
 const TIKTOK = {
   value: "@marktoppingmedia",
@@ -50,7 +50,7 @@ const TIKTOK = {
       }}
     />
   ),
-  link: "https://www.tiktok.com/t/ZTdwUbV6P/",
+  link: "https://www.tiktok.com/@marktoppingmedia",
 };
 const YOUTUBE = {
   value: "Mark Topping Media",

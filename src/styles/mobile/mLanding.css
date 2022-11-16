@@ -1,0 +1,28 @@
+.mobile-landing-container {
+  color: white;
+  position: relative;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-landing-header {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Righteous";
+}
+
+.mobile-heading-socials {
+  font-size: 28px;
+  align-self: center;
+  flex-direction: column;
+  position: absolute;
+  font-weight: 800;
+  padding: 0px;
+  display: flex;
+  left: 0px;
+  margin-left: 20px;
+  height: 400px;
+  justify-content: space-between;
+}

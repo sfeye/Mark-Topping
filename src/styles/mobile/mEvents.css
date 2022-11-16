@@ -1,0 +1,41 @@
+.mobile-events-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mobile-events-header {
+  font-family: "Vibur";
+  font-size: 55px;
+  color: #b7e9f7;
+  text-shadow: 0 -10px 100px, 0 0 2px, 0 0 1em #1da1f2, 0 0 0.5em #1da1f2,
+    0 0 0.1em #1da1f2, 0 10px 3px #1da1f2;
+  text-align: center;
+  padding-bottom: 30px;
+  z-index: 2;
+  margin-top: -40px;
+}
+
+.mobile-events-title {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 23px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.mobile-poster-image {
+  width: 95vw;
+}
+
+.mobile-event-desc {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.mobile-event-button {
+  width: 200px;
+  font-size: 20px;
+  align-self: center;
+  margin-top: 20px;
+}

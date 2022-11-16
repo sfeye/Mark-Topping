@@ -25,7 +25,7 @@ const About = () => {
           image={data.headshot.childImageSharp.gatsbyImageData}
         />
         <p className="about-text">
-          Mark Topping Media was founded in 2021 after a 24-year award-winning
+          Mark Topping Media was founded in 2021 after a 24-year award winning
           career in television news and professional sports. In this
           ever-changing, fast-paced world of digital media, we are your one-stop
           “Top” for public and media relations, social media, digital marketing,

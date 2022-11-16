@@ -12,7 +12,7 @@ export const serviceImages = [
         placeholder="blurred"
       />
     ),
-    title: "Marketing and Influence",
+    title: "Event Planning and Management ",
   },
   {
     img: (
@@ -24,7 +24,7 @@ export const serviceImages = [
         placeholder="blurred"
       />
     ),
-    title: "Public Relations",
+    title: "Media Relations and PR",
   },
   {
     img: (
@@ -36,7 +36,7 @@ export const serviceImages = [
         placeholder="blurred"
       />
     ),
-    title: "Social Media and Web Precense",
+    title: "Digital Marketing and Social Media",
   },
   {
     img: (
@@ -48,7 +48,7 @@ export const serviceImages = [
         placeholder="blurred"
       />
     ),
-    title: "Microphone",
+    title: "Video Production and Editing",
   },
 ];
 

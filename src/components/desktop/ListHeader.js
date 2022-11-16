@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/desktop/listheader.css";
+import "../../styles/desktop/listheader.css";
 
 function ListHeader() {
   return (

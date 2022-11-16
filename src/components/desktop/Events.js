@@ -19,7 +19,7 @@ function Events() {
   });
 
   const data = useStaticQuery(graphql`
-    query {
+    query getEventPoster {
       poster: file(relativePath: { eq: "poster-e1.jpg" }) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED)
@@ -55,7 +55,8 @@ function Events() {
         <Button
           variant="contained"
           className="event-button"
-          id={modalButtonCheckout.id}
+          target="_blank"
+          href="https://www.eventbrite.com/e/a-charlie-brown-christmas-performed-by-tj-the-tattletales-tickets-448555450427"
           type="button"
         >
           Buy Tickets

@@ -37,5 +37,16 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts-v2`,
+      options: {
+        fonts: [
+          {
+            family: `Righteous`,
+            variants: ["200..800"],
+          },
+        ],
+      },
+    },
   ],
 };

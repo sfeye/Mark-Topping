@@ -41,17 +41,15 @@ function Events() {
         to donate a non-perishable food item or household goods/toiletries to
         benefit Operation Breakthrough. Tickets are on sale now!
       </div>
-      {modalButtonCheckout && (
-        <Button
-          variant="contained"
-          className="event-button"
-          target="_blank"
-          href="https://www.eventbrite.com/e/a-charlie-brown-christmas-performed-by-tj-the-tattletales-tickets-448555450427"
-          type="button"
-        >
-          Buy Tickets
-        </Button>
-      )}
+      <Button
+        variant="contained"
+        className="event-button"
+        target="_blank"
+        href="https://www.eventbrite.com/e/a-charlie-brown-christmas-performed-by-tj-the-tattletales-tickets-448555450427"
+        type="button"
+      >
+        Buy Tickets
+      </Button>
       <ImageList cols={5}>
         {eventImages.map((photo) => (
           <ImageListItem>{photo}</ImageListItem>

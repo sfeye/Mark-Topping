@@ -8,6 +8,16 @@ import Button from "@mui/material/Button";
 import "../../styles/desktop/events.css";
 
 function Events() {
+  const data = useStaticQuery(graphql`
+    query getEventPoster {
+      poster: file(relativePath: { eq: "poster-e1.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(layout: CONSTRAINED)
+        }
+      }
+    }
+  `);
+
   return (
     <div className="events-container">
       <div className="events-header">Upcoming Events</div>

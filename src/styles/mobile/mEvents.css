@@ -19,13 +19,13 @@
 .mobile-events-title {
   padding-top: 20px;
   padding-bottom: 30px;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
   font-weight: 600;
 }
 
 .mobile-poster-image {
-  width: 95vw;
+  width: 100vw;
 }
 
 .mobile-event-desc {

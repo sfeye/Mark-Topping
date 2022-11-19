@@ -6,7 +6,7 @@ import responsive from "../constants/responsive";
 import Event from "../components/common/Events";
 import { graphql, useStaticQuery } from "gatsby";
 
-const PastEvents = () => {
+const CurrentEvent = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -69,20 +69,20 @@ const PastEvents = () => {
     <Main>
       <MobileDiv>
         <Mobile>
-          <Event header="Past Events" events={event}></Event>
+          <Event header="Current Event" events={event}></Event>
         </Mobile>
       </MobileDiv>
 
       <DesktopDiv>
         <Desktop>
-          <Event header="Past Events" events={event}></Event>
+          <Event header="Current Event" events={event}></Event>
         </Desktop>
       </DesktopDiv>
     </Main>
   );
 };
 
-export default PastEvents;
+export default CurrentEvent;
 
 const Main = styled.main``;
 

@@ -67,6 +67,7 @@ const CardContainer = styled.div`
   -webkit-perspective: 1000px;
   perspective: 1000px;
   transform-style: preserve-3d;
+  padding-bottom: 50px;
 
   &.flipped {
     z-index: 1;

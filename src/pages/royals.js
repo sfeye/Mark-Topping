@@ -7,11 +7,11 @@ import Header from "../components/common/Header";
 import { graphql, useStaticQuery } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
-const MediaProduction = () => {
+const Royals = () => {
   const { placeholderImage } = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "gen-mic.JPG" }) {
+        placeholderImage: file(relativePath: { eq: "gen-royals.JPG" }) {
           childImageSharp {
             gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
           }
@@ -27,10 +27,10 @@ const MediaProduction = () => {
       <MobileDiv>
         <Mobile>
           <Header
-            title1="Video Production"
-            title2="and Editing"
+            title1="Experience with"
+            title2="the Royals"
             image={image}
-            altText="Microphone podcast interview editing and video production"
+            altText="Flag at the Royals Staadium for a baseball game"
             desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
             career in television news and professional sports. In this
             ever-changing, fast-paced world of digital media, we are your one-stop
@@ -49,10 +49,10 @@ const MediaProduction = () => {
       <DesktopDiv>
         <Desktop>
           <Header
-            title1="Video Production"
-            title2="and Editing"
+            title1="Experience with"
+            title2="the Royals"
             image={image}
-            altText="Microphone podcast interview editing and video production"
+            altText="Flag at the Royals Staadium for a baseball game"
             desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
             career in television news and professional sports. In this
             ever-changing, fast-paced world of digital media, we are your one-stop
@@ -71,7 +71,7 @@ const MediaProduction = () => {
   );
 };
 
-export default MediaProduction;
+export default Royals;
 
 const Main = styled.main``;
 

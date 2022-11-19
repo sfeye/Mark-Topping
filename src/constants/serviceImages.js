@@ -13,6 +13,7 @@ export const serviceImages = [
       />
     ),
     title: "Event Planning and Management ",
+    to: "/marketing",
   },
   {
     img: (
@@ -25,6 +26,7 @@ export const serviceImages = [
       />
     ),
     title: "Media Relations and PR",
+    to: "/public-relations",
   },
   {
     img: (
@@ -37,18 +39,20 @@ export const serviceImages = [
       />
     ),
     title: "Digital Marketing and Social Media",
+    to: "/social-media",
   },
   {
     img: (
       <StaticImage
         src="../images/gen-mic.JPG"
         srcSet="../images/gen-mic.JPG"
-        alt="Social Media management computer and sound equipment"
+        alt="Microphone podcast interview editing and video production"
         loading="lazy"
         placeholder="blurred"
       />
     ),
     title: "Video Production and Editing",
+    to: "/media-production",
   },
 ];
 

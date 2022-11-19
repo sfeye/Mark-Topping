@@ -30,6 +30,7 @@ const Landing = () => {
         <GatsbyImage
           image={image}
           alt={"cameras pointing at eachother image"}
+          loading="eager"
         />
       </div>
       <div className="mobile-landing-container">

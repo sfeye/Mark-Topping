@@ -22,7 +22,7 @@ function Events() {
     <div className="events-container">
       <div className="events-header">Upcoming Events</div>
       <div className="event-title">
-        VINCE GUARALDI’S “A Charlie Brown Christmas” performed by TJ & The
+        Vince Guaraldi’s “A Charlie Brown Christmas” performed by TJ & The
         Tattletales
       </div>
       <GatsbyImage

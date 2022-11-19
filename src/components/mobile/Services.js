@@ -5,6 +5,7 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 import ListSubheader from "@mui/material/ListSubheader";
 import serviceImages from "../../constants/serviceImages";
 import ListHeader from "../mobile/ListHeader";
+import { Link } from "gatsby";
 
 const Services = () => {
   return (
@@ -17,8 +18,10 @@ const Services = () => {
         </ImageListItem>
         {serviceImages.map((photo) => (
           <ImageListItem>
-            {photo.img}
-            <ImageListItemBar title={photo.title} />
+            <Link to={photo.to}>
+              {photo.img}
+              <ImageListItemBar title={photo.title} />
+            </Link>
           </ImageListItem>
         ))}
       </ImageList>

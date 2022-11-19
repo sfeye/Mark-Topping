@@ -1,15 +1,16 @@
 .mobile-landing-container {
   color: white;
   position: relative;
-  height: 750px;
+  height: 675px;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .mobile-landing-header {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 50px;
   font-family: "Righteous";
 }
 

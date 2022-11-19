@@ -38,6 +38,13 @@ module.exports = {
       __key: "pages",
     },
     {
+      resolve: `gatsby-source-youtube-v3`,
+      options: {
+        channelId: ["UC20kfZT9rTubWCAZKkam3yg"],
+        apiKey: "AIzaSyANWC3j5_G1z9nGR5JMlNcLOBJKuvklkPA",
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [

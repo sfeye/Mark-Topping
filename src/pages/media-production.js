@@ -31,17 +31,7 @@ const MediaProduction = () => {
             title2="and Editing"
             image={image}
             altText="Microphone podcast interview editing and video production"
-            desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
-            career in television news and professional sports. In this
-            ever-changing, fast-paced world of digital media, we are your one-stop
-            “Top” for public and media relations, social media, digital marketing,
-            content creation, events, media training and crisis management."
-            desc2="Whether you’re starting a new business in need of a marketing
-            strategy, or an existing one looking to promote via social and
-            electronic media, Mark Topping Media is here to provide the content
-            that is right for your brand. We have built trusted relationships in
-            the industry which have formed a foundation that will allow us to
-            promote your brand and drive revenue for your business."
+            desc1="When your project requires the best video content, count on Mark Topping Media and our network of award-winning videographers and editors to bring your vision to life. We have 25 years of experience in television news, freelance video production, and sports video. We know how to build your video around people and places to bring your message to your customers. No gimmicks. We don’t believe in using effects as a crutch, but will use the latest technological innovations to make your content stand out!"
           ></Header>
         </Mobile>
       </MobileDiv>
@@ -53,17 +43,7 @@ const MediaProduction = () => {
             title2="and Editing"
             image={image}
             altText="Microphone podcast interview editing and video production"
-            desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
-            career in television news and professional sports. In this
-            ever-changing, fast-paced world of digital media, we are your one-stop
-            “Top” for public and media relations, social media, digital marketing,
-            content creation, events, media training and crisis management."
-            desc2="Whether you’re starting a new business in need of a marketing
-            strategy, or an existing one looking to promote via social and
-            electronic media, Mark Topping Media is here to provide the content
-            that is right for your brand. We have built trusted relationships in
-            the industry which have formed a foundation that will allow us to
-            promote your brand and drive revenue for your business."
+            desc1="When your project requires the best video content, count on Mark Topping Media and our network of award-winning videographers and editors to bring your vision to life. We have 25 years of experience in television news, freelance video production, and sports video. We know how to build your video around people and places to bring your message to your customers. No gimmicks. We don’t believe in using effects as a crutch, but will use the latest technological innovations to make your content stand out!"
           ></Header>
         </Desktop>
       </DesktopDiv>

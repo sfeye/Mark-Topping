@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import { serviceLinks } from "../../constants/service-links";
 import { eventLinks } from "../../constants/event-links";
-import SwipeableDrawer from "@mui/material/SwipeableDrawer";
+import Drawer from "@mui/material/SwipeableDrawer";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className="nav-container">
       <div className="nav-links">
         <Menu sx={{ fontSize: 50 }} onClick={handleClick} />
-        <SwipeableDrawer
+        <Drawer
           disableBackdropTransition={!iOS}
           disableDiscovery={iOS}
           anchor="right"
@@ -108,7 +108,7 @@ const Navbar = () => {
               />
             </ListItem>
           </List>
-        </SwipeableDrawer>
+        </Drawer>
       </div>
     </div>
   );

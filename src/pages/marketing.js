@@ -31,17 +31,8 @@ const Marketing = () => {
             title2="and Management"
             image={image}
             altText="Marketing working around a desk with a presentor"
-            desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
-            career in television news and professional sports. In this
-            ever-changing, fast-paced world of digital media, we are your one-stop
-            “Top” for public and media relations, social media, digital marketing,
-            content creation, events, media training and crisis management."
-            desc2="Whether you’re starting a new business in need of a marketing
-            strategy, or an existing one looking to promote via social and
-            electronic media, Mark Topping Media is here to provide the content
-            that is right for your brand. We have built trusted relationships in
-            the industry which have formed a foundation that will allow us to
-            promote your brand and drive revenue for your business."
+            desc1="One of the most effective ways to increase your brand awareness is by hosting an event. We will plan all aspects of your event, with emphasis on unique and memorable in order to make it press-worthy. From choosing the right location to the equipment rental, sound, lighting, and catering, we’ll execute all details from beginning to end."
+            desc2="Our team has staged everything from fundraisers to benefit charities supported by world-class athletes to meet-and-greets and book promotions featuring local celebrities. We also specialize in producing and promoting concerts and other visual arts. Let us know what you’re hoping to accomplish and we can work with you to bring your vision to fruition."
           ></Header>
         </Mobile>
       </MobileDiv>
@@ -53,17 +44,8 @@ const Marketing = () => {
             title2="and Management"
             image={image}
             altText="Marketing working around a desk with a presentor"
-            desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
-            career in television news and professional sports. In this
-            ever-changing, fast-paced world of digital media, we are your one-stop
-            “Top” for public and media relations, social media, digital marketing,
-            content creation, events, media training and crisis management."
-            desc2="Whether you’re starting a new business in need of a marketing
-            strategy, or an existing one looking to promote via social and
-            electronic media, Mark Topping Media is here to provide the content
-            that is right for your brand. We have built trusted relationships in
-            the industry which have formed a foundation that will allow us to
-            promote your brand and drive revenue for your business."
+            desc1="One of the most effective ways to increase your brand awareness is by hosting an event. We will plan all aspects of your event, with emphasis on unique and memorable in order to make it press-worthy. From choosing the right location to the equipment rental, sound, lighting, and catering, we’ll execute all details from beginning to end."
+            desc2="Our team has staged everything from fundraisers to benefit charities supported by world-class athletes to meet-and-greets and book promotions featuring local celebrities. We also specialize in producing and promoting concerts and other visual arts. Let us know what you’re hoping to accomplish and we can work with you to bring your vision to fruition."
           ></Header>
         </Desktop>
       </DesktopDiv>

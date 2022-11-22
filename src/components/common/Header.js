@@ -20,8 +20,7 @@ const Header = ({ title1, title2, image, altText, desc1, desc2 }) => {
       <OffsetDesc>
         <DescDiv>
           <Desc>{desc1}</Desc>
-          <br />
-          <Desc>{desc2}</Desc>
+          {desc2 ? <Desc2>{desc2}</Desc2> : <React.Fragment />}
         </DescDiv>
       </OffsetDesc>
     </Container>
@@ -36,10 +35,12 @@ const Container = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: row;
+
   ${responsive.mobile`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
   `};
 `;
 
@@ -134,4 +135,11 @@ const Desc = styled.p`
   text-align: left;
   font-size: 18px;
   color: black;
+`;
+
+const Desc2 = styled.p`
+  text-align: left;
+  font-size: 18px;
+  color: black;
+  margin-top: 40px;
 `;

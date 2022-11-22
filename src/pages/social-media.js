@@ -31,17 +31,8 @@ const SocialMedia = () => {
             title2="and Social Media"
             image={image}
             altText="Social Media management computer and sound equipment"
-            desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
-            career in television news and professional sports. In this
-            ever-changing, fast-paced world of digital media, we are your one-stop
-            “Top” for public and media relations, social media, digital marketing,
-            content creation, events, media training and crisis management."
-            desc2="Whether you’re starting a new business in need of a marketing
-            strategy, or an existing one looking to promote via social and
-            electronic media, Mark Topping Media is here to provide the content
-            that is right for your brand. We have built trusted relationships in
-            the industry which have formed a foundation that will allow us to
-            promote your brand and drive revenue for your business."
+            desc1="We are all consumed by the power of social media everywhere we look. This ever-changing landscape is critically important to stay on top of. Allow us to help provide fresh, relevant content to get your message out to your consumers, via your social media channels, e-mail and advertising or influencer campaigns."
+            desc2="While many larger companies have dedicated teams to handle their social media, the smaller, locally-owned business don’t always have that luxury. Mark Topping Media is here to help you engage your customers with video and other exciting content, increasing your followers and ultimately driving profits."
           ></Header>
         </Mobile>
       </MobileDiv>
@@ -53,17 +44,8 @@ const SocialMedia = () => {
             title2="and Social Media"
             image={image}
             altText="Social Media management computer and sound equipment"
-            desc1="Mark Topping Media was founded in 2021 after a 24-year award winning
-            career in television news and professional sports. In this
-            ever-changing, fast-paced world of digital media, we are your one-stop
-            “Top” for public and media relations, social media, digital marketing,
-            content creation, events, media training and crisis management."
-            desc2="Whether you’re starting a new business in need of a marketing
-            strategy, or an existing one looking to promote via social and
-            electronic media, Mark Topping Media is here to provide the content
-            that is right for your brand. We have built trusted relationships in
-            the industry which have formed a foundation that will allow us to
-            promote your brand and drive revenue for your business."
+            desc1="We are all consumed by the power of social media everywhere we look. This ever-changing landscape is critically important to stay on top of. Allow us to help provide fresh, relevant content to get your message out to your consumers, via your social media channels, e-mail and advertising or influencer campaigns."
+            desc2="While many larger companies have dedicated teams to handle their social media, the smaller, locally-owned business don’t always have that luxury. Mark Topping Media is here to help you engage your customers with video and other exciting content, increasing your followers and ultimately driving profits."
           ></Header>
         </Desktop>
       </DesktopDiv>

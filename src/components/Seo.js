@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import { useStaticQuery, graphql } from "gatsby";
 
-const SEO = ({ title, description, image, article }) => {
+const SEO = ({ title, description, image, article, keywords, lang }) => {
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
 
@@ -14,6 +14,7 @@ const SEO = ({ title, description, image, article }) => {
     siteUrl,
     defaultImage,
     twitterUsername,
+    defaultKeywords,
   } = site.siteMetadata;
 
   const seo = {
@@ -21,25 +22,23 @@ const SEO = ({ title, description, image, article }) => {
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
+    seo: keywords || defaultKeywords,
   };
 
   return (
-    <Helmet title={seo.title}>
+    <Helmet
+      title={seo.title}
+      htmlAttributes={{
+        lang,
+      }}
+    >
       <link rel="canonical" href={seo.url} />
       <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Nunito"
+        href="https://fonts.googleapis.com/css?family=Righteous"
         rel="stylesheet"
       />
       <link
         href="https://fonts.googleapis.com/css?family=Vibur"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Satisfy"
         rel="stylesheet"
       />
       <meta name="description" content={seo.description} />
@@ -55,13 +54,15 @@ const SEO = ({ title, description, image, article }) => {
         <meta property="og:description" content={seo.description} />
       )}
 
-      {seo.image && <meta property="og:image" content={seo.image} />}
+      {seo.keywords && <meta name="keywords" content={seo.keywords} />}
 
-      <meta name="twitter:card" content="summary_large_image" />
+      {seo.image && <meta property="og:image" content={seo.image} />}
 
       {twitterUsername && (
         <meta name="twitter:creator" content={twitterUsername} />
       )}
+
+      <meta name="twitter:card" content="summary_large_image" />
 
       {seo.title && <meta name="twitter:title" content={seo.title} />}
 
@@ -80,22 +81,32 @@ SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
+  twitterUsername: PropTypes.string,
   article: PropTypes.string,
+  keywords: PropTypes.string,
+  lang: PropTypes.string,
 };
 
 SEO.defaultProps = {
   title: "Mark Topping Media",
-  description: "Mark Topping Media - coming Summer 2022",
+  description: `Mark Topping Media is dedicated to helping you and your business grow. From five star event organizing to social media management, we are here to promote and support you. We are a small locally owned Kansas City Marketing business that prides itself in customized marketing and relations.`,
   article: "website",
+  image: "../images/logo-normal-1000.png",
+  twitterUsername: "@topping_media",
+  keywords: `Mark Topping, Mark Topping Media, Kansas City Media, KC Media`,
+  lang: `en`,
 };
 
 const query = graphql`
   query SEO {
     site {
       siteMetadata {
-        defaultTitle: title
-        defaultDescription: description
+        title
+        description
         siteUrl
+        image
+        keywords
+        twitterUsername
       }
     }
   }

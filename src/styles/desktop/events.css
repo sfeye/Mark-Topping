@@ -35,3 +35,14 @@
   width: 150px;
   align-self: center;
 }
+
+.event-btns {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.nostyle {
+  text-decoration: none;
+}

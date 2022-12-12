@@ -39,3 +39,14 @@
   align-self: center;
   margin-top: 20px;
 }
+
+.mobile-event-btns {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.nostyle {
+  text-decoration: none;
+}

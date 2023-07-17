@@ -10,7 +10,7 @@ const CurrentEvent = () => {
   const data = useStaticQuery(
     graphql`
       query {
-        poster: file(relativePath: { eq: "fullposter.PNG" }) {
+        poster: file(relativePath: { eq: "xmasjuly.jpeg" }) {
           childImageSharp {
             gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
           }
@@ -51,9 +51,9 @@ const CurrentEvent = () => {
         "Vince Guaraldi’s “A Charlie Brown Christmas” performed by TJ & TheTattletales",
       title:
         "Vince Guaraldi’s “A Charlie Brown Christmas” performed by TJ & TheTattletales",
-      date: "December 6th, 13th, 18th, and 20th 2022 at 7:30pm",
-      desc: "Vince Guaraldi’s holiday classic, “A Charlie Brown Christmas,” will be performed in its entirety by TJ & The Tattletales at Mike Kelly’s Westsider on December 6, 13, 18, and 20. All performances start at 7:30pm, followed by a set of salacious “X”-Mas favorites! Guests are encouraged to donate a non-perishable food item or household goods/toiletries to benefit Operation Breakthrough. Tickets are on sale now! SOLD OUT 6th, 13th, 20th",
-      link: "https://www.eventbrite.com/e/a-charlie-brown-christmas-performed-by-tj-the-tattletales-tickets-448555450427",
+      date: "Monday, July 24 at 7:30pm",
+      desc: "Christmas in July at recordBar! TJ & The Tattletales will perform Vince Guaraldi’s “A Charlie Brown Christmas” on Monday, July 24 at 7:30pm. We will have a raffle and donations to benefit Operation Breakthrough. Holiday cocktails featuring Una Familia Tequila. Tickets on sale now!",
+      link: "https://link.dice.fm/P34b023a45b2",
       active: true,
       sources: [
         data.s1.childImageSharp.gatsbyImageData,

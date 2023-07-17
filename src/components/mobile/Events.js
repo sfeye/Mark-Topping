@@ -10,7 +10,7 @@ import "../../styles/mobile/mEvents.css";
 function Events() {
   const data = useStaticQuery(graphql`
     query getEventPoster {
-      poster: file(relativePath: { eq: "cbcsold.jpg" }) {
+      poster: file(relativePath: { eq: "xmasjuly.jpeg" }) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED)
         }
@@ -34,17 +34,21 @@ function Events() {
         image={data.poster.childImageSharp.gatsbyImageData}
       />
       <div className="mobile-event-desc">
-        <b>SOLD OUT FOR 12/6, 12/13 and 12/20.</b> Due to overwhelming demand,
-        we have added a new show. TJ & The Tattletales will perform Vince
-        Guaraldi’s “A Charlie Brown Christmas” on Sunday 12/18 at Mike Kelly’s
-        Westsider. 7:30pm all ages (Under 21 with adult). Tickets on sale now.
+        <b>Monday, July 24 at 7:30pm</b> Christmas in July at recordBar! TJ &
+        The Tattletales will perform Vince Guaraldi’s “A Charlie Brown
+        Christmas” on Monday, July 24 at 7:30pm. We will have a raffle and
+        donations to benefit{" "}
+        <a href="https://operationbreakthrough.org/">Operation Breakthrough</a>.
+        Holiday cocktails featuring{" "}
+        <a href="https://unafamiliatequila.com/">Una Familia Tequila</a>.
+        Tickets on sale now!
       </div>
       <div className="mobile-event-btns">
         <Button
           variant="contained"
           className="event-button"
           target="_blank"
-          href="https://www.eventbrite.com/e/a-charlie-brown-christmas-performed-by-tj-the-tattletales-tickets-448555450427"
+          href="https://link.dice.fm/P34b023a45b2"
           type="button"
         >
           Buy Tickets

@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+a {
+  color: white;
+}
+
 .events-header {
   font-family: "Vibur";
   font-size: 80px;
